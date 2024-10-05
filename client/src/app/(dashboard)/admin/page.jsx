@@ -3,7 +3,7 @@
 const AdminPage = () => {
     return (
         <div>
-            ADMIN
+            {/* ADMIN */}
         </div>
     );
 };
