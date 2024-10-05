@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Span } from "next/dist/trace";
+import Menu from "@/components/Menu";
 
 export default function RootLayout({ children }) {
   return (
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
           <Image src="/logo.png" alt="Logo" width={32} height={32} />
           <span className="hidden lg:block">School App</span>
         </Link>
+        <Menu/>
       </div>
 
       {/* Right */}
