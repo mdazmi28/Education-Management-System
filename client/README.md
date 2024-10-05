@@ -1,2 +1,2 @@
 # Directories
-    ## public - holds all the assests
+## public - holds all the assests
